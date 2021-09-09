@@ -6,6 +6,7 @@ Spaces will be included only when more than one word is present.
 """
 
 
+# My Solution
 def spin_words(sentence):
 
     words = sentence.split()
@@ -20,5 +21,6 @@ def spin_words(sentence):
     return " ".join(result)
 
 
+# Highest rated solution on CodeWars
 def spin_words_sol(sentence):
     return " ".join([x[::-1] if len(x) >= 5 else x for x in sentence.split(" ")])
