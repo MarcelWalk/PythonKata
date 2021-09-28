@@ -10,11 +10,15 @@ What if the string is empty? Then the result should be empty object literal, {}.
 
 # My Solution
 import collections
+
+
 def count(string):
     return collections.Counter(string)
 
 
 # Highest rated solution on CodeWars
 from collections import Counter
-def count(string):
+
+
+def count_sol(string):
     return Counter(string)
